@@ -1,0 +1,16 @@
+---
+framework: mocha
+preRun:
+     command:
+        - yarn
+preMerge:
+  pattern:
+    - "./test/**/*.spec.js"
+postMerge:
+  pattern: 
+    - "./test/**/*.spec.js"
+postRun:
+     command:
+        - yarn --version
+configFile: mocharc.yml
+version: 1.0
