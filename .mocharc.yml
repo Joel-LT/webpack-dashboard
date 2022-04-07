@@ -1,2 +1,2 @@
-require: "./test/setup.js"
-recursive: true
+require: './test/setup.js'
+# recursive: true
